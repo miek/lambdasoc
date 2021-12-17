@@ -43,6 +43,10 @@ setup(
     extras_require={
         "SFL": ["asyncserial"]
     },
+    dependency_links=[
+        'git+https://github.com/enjoy-digital/litex.git@f9f1b8e25db6d6db1aa47a135a5f898c433d516e#egg=litex',
+        'git+https://github.com/enjoy-digital/litedram.git@83d18f48c7f7590096ddb35d669836d7abb3be6f#egg=litedram',
+    ],
     packages=find_packages(),
     zip_safe=False, # install package as a directory. needed to build the SoC firmware.
     include_package_data=True,
