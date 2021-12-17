@@ -25,10 +25,10 @@ setup(
     setup_requires=["setuptools_scm"],
     install_requires=[
         "jinja2>=3.0",
-        "nmigen>=0.1,<0.5",
-        "nmigen-soc",
-        "nmigen-stdio",
-        "nmigen-boards",
+        "amaranth>=0.3,<0.4",
+        "amaranth-soc",
+        "amaranth-stdio",
+        "amaranth-boards",
         "minerva",
 
         "migen",
